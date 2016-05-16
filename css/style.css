@@ -1,0 +1,70 @@
+
+header h1{
+  color:navy;
+  margin: 10px;
+  float:left;
+  font-size: 30px;
+
+}
+header nav {
+  float: right;
+  padding-top: 20px;
+
+}
+header nav li{
+display: inline;
+
+}
+nav li a{
+  text-decoration: none;
+  margin-left: 5px;
+  margin-top: 6px;
+  font-size: 120%;
+
+}
+
+.container_24{  background-color: lightblue;}
+
+.left, .middle, .right{ background-color: white;
+  position: relative;
+  float: right;
+  color:darkgreen;
+  text-align: center;
+}
+
+.left img, .middle img, .right img{border-radius: 4px;
+border: 1px solid #ddd;
+width:300px;
+height: 200px;
+padding: 3px 3px 0px 4px;
+}
+
+.three { background-color: white;
+margin-top: 50px;}
+
+.hero {background-color: white;
+  height: 700px
+overflow: hidden;
+margin-top: 50px;
+text-align: center;
+font-style: normal;
+color: blue;
+
+}
+
+.hero img{border-radius: 6px;
+border: 4px solid #ddd;
+width:900px;
+height: 500px;
+padding:21px;
+}
+footer{
+  background-color: black;
+  clear: both;
+  color:white;
+  text-align: center;
+}
+footer img{
+  width:15px;
+  height:15px;
+}
